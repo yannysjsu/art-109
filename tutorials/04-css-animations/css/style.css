@@ -34,4 +34,21 @@ html {
     /* font-size 1.6rem is now the same as 16px */
     line-height: 1.6;
  }
- 
+
+ /*/////////////////////////////////////////////////////////////////*/
+
+ @keyframes stretching {
+    0% {
+      width: 100px;
+    }
+    100% {
+      width: 200px;
+    }
+  }
+  
+  
+  .button {
+    animation-name: stretching;
+    animation-duration: 1s;
+  }
+  
